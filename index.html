@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>Light Nature</title>
+
+  <style>
+    .market-card-container {
+      padding: .3rem;
+      max-width: 1230px;
+      margin: 0 auto;
+    }
+
+    .card_slider {
+      padding: 40px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header-logo">
+      <i class="fas fa-bug"></i>
+      <h3> Yagami </h3>
+    </div>
+    <div class="main-header-nav">
+      <ul>
+        <li><a href="#markets">markets</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="cross hidden">
+      <span>&#10005;</span>
+    </div>
+    <div class="hamburger-menu hidden">
+      <ul>
+        <li><a href="#markets">markets</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="welcome-section">
+    <h1>Welcome to Yagami Nature</h1>
+    <p>Technology today is evolving at a rapid pace, enabling faster change and progress, causing an acceleration of the
+      rate of change</p>
+    <a href="#" class="main-btn">Learn More</a>
+  </section>
+
+  <!-- market section -->
+  <div id="markets">
+    <h1>Markets</h1>
+    <div class="market-card-container">
+      <div class="swiper card_slider">
+        <div class="swiper-wrapper">
+
+
+          <div class="swiper-slide">
+            <div class="market-card">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <h3>Linkdin</h3>
+              <p>get a job based on your skills</p>
+              <div>
+                <img src="./img/s1.jpg" alt="">
+                <h2>Ken Kaneki</h2>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="market-card">
+              <i class="fa-brands fa-apple"></i>
+              <h3>Apple</h3>
+              <p>“If you don’t love it, you’re going to fail.”</p>
+              <div>
+                <img src="./img/s2.jpg" alt="">
+                <h2>John Naruka</h2>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="market-card">
+              <i class="fa-brands fa-windows"></i>
+              <h3>Microsoft</h3>
+              <p>Microsoft is Amazing</p>
+              <div>
+                <img src="./img/s3.jpg" alt="">
+                <h2>Steve Daal</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="market-card">
+              <i class="fa-brands fa-google"></i>
+              <h3>Google</h3>
+              <p>You Cannot get a Job at Google.</p>
+              <div>
+                <img src="./img/s4.jpg" alt="">
+                <h2>Itachi Uchiha</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <section id="about">
+    <div class="row">
+      <div class="column-1">
+        <img src="./img//p5.jpg" alt="">
+      </div>
+      <div class="column-2">
+        <h2>About Us</h2>
+        <p>We provides better understanding of nature</p>
+        <p>the phenomena of the physical world collectively, including plants, animals, the landscape, and other
+          features and products of the earth, as opposed to humans or human creations.
+          "the breathtaking beauty of nature"</p>
+        <a href="#" class="second-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-full-container" id="team">
+
+    <h1>Team</h1>
+
+    <div class="team">
+      <div class="team-1">
+        <div class="imgbox"><img src="./img//luffy.webp" alt="" width="200px"></div>
+        <h2>Monkey D Luffy</h2>
+        <h3>CEO</h3>
+      </div>
+      <div class="team-1">
+        <div class="imgbox">
+          <img src="./img//cute.webp" alt="kij" width="200px">
+        </div>
+        <h2>Miko nanako</h2>
+        <h3>President</h3>
+      </div>
+      <div class="team-1">
+        <div class="imgbox"><img src="./img//puppy.webp" alt="" width="200px" class="luffy-img"></div>
+        <h2>Jack Smith</h2>
+        <h3>Cheif Director</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container" id="contact">
+    <div class="left">
+      <h1>Contact Us</h1>
+      <form action="https://formsubmit.co/deepakpanwar1051@gmail.com" method="post">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New email woooo!">
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="john@doe.com" id="email" required>
+        <input type="hidden" name="_next" value="https://deepak1051.github.io/pages/thankyou.html">
+
+        <label for="message">Message</label>
+        <input type="text" placeholder="type something..." id="message" required>
+
+        <button>SEND</button>
+      </form>
+
+    </div>
+
+    <div class="right">
+      <img src="./img/p9.jpg" alt="">
+    </div>
+  </section>
+
+  <footer>
+    <h1>Made By <span>Light Yagami</span> || All Right Reserved 2022</h1>
+  </footer>
+  <!-- <section class="slider-container">
+    <div class="container">
+      <div class="swiper card_slider">
+     
+        <div class="swiper-wrapper">
+         
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img src="./img/ab1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section> -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+
+  <script>
+    var swiper = new Swiper(".card_slider", {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      speed: 1000,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 5,
+
+        },
+        480: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+
+        },
+        1200: {
+          slidesPerView: 4,
+
+        },
+      }
+    });
+  </script>
+</body>
+
+</html>
